@@ -24,7 +24,7 @@
 
 // const year = 2014
 
-// if (year % 4 === 0){
+// if (year % 4 == 0){
 //     console.log(`${year} is a leap year.`);
 // }else{
 //     console.log(`${year} is not a leap year.`);
@@ -63,9 +63,16 @@
 //7.Reverse a Number
 
 const num = 1234
-let rev = 0
 let temp = num
+let rev = 0
 
-while(temp > 0){
+while(temp>0){
+    
+        let r = temp % 10
+        rev = rev * 10 + r
+        temp = Math.floor(temp / 10)
     
 }
+
+
+console.log(rev);
