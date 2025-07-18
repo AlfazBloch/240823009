@@ -62,17 +62,162 @@
 
 //7.Reverse a Number
 
-const num = 1234
-let temp = num
-let rev = 0
+// const num = 1234
+// let temp = num
+// let rev = 0
 
-while(temp>0){
+// while(temp>0){
     
-        let r = temp % 10
-        rev = rev * 10 + r
-        temp = Math.floor(temp / 10)
+//         let r = temp % 10
+//         rev = rev * 10 + r
+//         temp = Math.floor(temp / 10)
     
-}
+// }
 
 
-console.log(rev);
+// console.log(rev);
+
+//8.Palindrome Check (Number)
+
+// const num=313
+// let temp = num
+// let rev = 0
+
+// while(temp>0){
+//         let r = temp % 10
+//         rev = rev * 10 + r
+//         temp = Math.floor(temp/10)
+// }
+
+// if(rev === num){
+//         console.log(`${num} is Palindrome number`);
+// }else{
+//         console.log(`${num} is not a palindrome number`);
+// }
+
+//9. Check Prime Number
+
+// const num = 12
+// let flag = false
+// for(let i=2;i<num;i++){
+
+//         if(num%i==0){
+//                 flag=true
+//                 break
+//         }
+// }
+
+// if (!flag) {
+//         console.log(`${num} is a prime number`);
+// } else {
+//         console.log(`${num} is not a prime number`);
+// }
+
+// 10. Count Digits in a Number
+
+// const num = 5023
+// let count = 0
+// let temp = num
+// while(temp>0){
+
+//         temp = Math.floor(temp/10)
+//         count++
+// }
+
+// console.log(`${count} digits in ${num} number`);
+
+//11.Sum of Digits
+
+// const num = 123
+// let sum = 0
+// let temp = num
+
+// while(temp>0){
+
+//         let r = temp % 10
+//         sum += r 
+//         temp=Math.floor(temp/10)
+// }
+
+// console.log(`${sum} is sum of ${num} number`)
+
+
+//12. Check Armstrong Number
+
+// const num = 370
+// let temp = num
+// let arm = 0
+
+// const digits = num.toString().length
+
+// while(temp>0){
+
+//         let digit = temp % 10
+
+//         arm += Math.pow(digit,digits)
+
+//         temp = Math.floor(temp/10)
+// }
+
+// if(arm === num){
+//         console.log(`${num} is an armstrong number`);
+// }else{
+//         console.log(`${num} is not an armstrong number`);
+// }
+
+// 13. Generate Fibonacci Series
+
+// const num = 7
+// let temp1 = 0
+// let temp2 = 1
+
+// console.log(`${temp1}`);
+// console.log(`${temp2}`);
+
+// for(let i=1;i<=num-2;i++){
+
+
+//         const temp3 = temp1 + temp2
+//         temp1 = temp2
+//         temp2 = temp3
+
+//         console.log(`${temp3}`);
+
+// }
+
+
+// 14. Check Vowel or Consonant
+
+// const input = "c"
+
+// if("aeiou".includes(input)){
+
+//         console.log(`${input} is vowel`);
+// }else{
+//         console.log(`${input} is consonant`);
+// }
+
+
+// 15. Simple Calculator
+
+// const a = 4
+// const b = 2
+// const symbol = "*"
+
+// switch (symbol) {
+//         case "+":
+//                 console.log(a+b);
+//                 break;
+//         case "-":
+//                 console.log(a-b);
+//                 break;  
+//         case "*":
+//                 console.log(a*b);
+//                 break;
+//         case "/":
+//                 console.log(a/b);
+//                 break;
+// }
+
+
+// 16. Find GCD (HCF)
