@@ -295,3 +295,10 @@
 // const exponent = 4
 
 // console.log(`${number}^${exponent}:${Math.pow(number,exponent)}`);
+
+
+// const sum = require('./module_demo.js')
+
+import sum from './module_demo.js'
+
+console.log(sum(2,4));
