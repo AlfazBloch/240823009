@@ -221,3 +221,77 @@
 
 
 // 16. Find GCD (HCF)
+
+// const number1 = 10
+// const number2 = 15
+// let GCD = 0
+
+// const min = number1 >= number2 ? number2 : number1
+
+// for(let i=1;i<=min;i++){
+//     if(number1%i==0 && number2%i==0){
+//         GCD = i
+//     }
+// }
+
+// console.log(`GCD: ${GCD}`);
+
+
+// 17. Check Perfect Number
+
+// const number = 6
+// let temp = 0
+// for(let i=1;i<number;i++){
+
+//     if(number%i===0){
+//         temp+=i
+//     }
+
+// }
+
+
+// if(number === temp){
+//     console.log(`${number} is a perfect number`);
+// }else{
+//     console.log(`${number} is not a perfect number`);
+// }
+
+
+// 18. Print All Divisors
+
+// const number = 10
+// let divisors = ''
+
+// for(let i=1;i<=number;i++){
+
+//     if(number % i === 0){
+
+//         divisors += i + ' '
+
+//     }
+
+// }
+
+// console.log(`Divisiors of ${number}: ${divisors}`);
+
+
+
+// 19. Number is Positive, Negative or Zero
+
+// const number = -5
+
+// if(number > 0){
+//     console.log(`${number} is a positive number`);
+// }else if(number < 0){
+//     console.log(`${number} is a negative number`);
+// }else{
+//     console.log(`${number} is zero`);
+// }
+
+
+// 20. Find Power (Exponentiation)
+
+// const number = 2
+// const exponent = 4
+
+// console.log(`${number}^${exponent}:${Math.pow(number,exponent)}`);
